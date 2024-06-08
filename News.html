@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+ body {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            background-size: cover;
+			background-color: #f1e5e5;
+        }
+
+        .slideshow-container {
+            max-width: 90%; /* Adjust the width as needed */
+            margin: 4%;
+            overflow: hidden;
+            float: left;
+        }
+
+        .mySlidesfade {
+            display: flex;
+            align-items: flex-start; /* Align the top of the images with the top of the news content */
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .mySlidesfade img {
+            max-width: 50%; /* Adjust the width of the images as needed */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover;
+        }
+
+        .content {
+            width: 50%; /* Adjust the width of the content area as needed */
+            padding: 0 20px;
+            text-align: jus;
+			
+        }
+
+        .newstopic {
+            color: #660000;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 10px;
+			font-size: 2rem;
+			text-align: center;
+        }
+		.newscontent{
+			color: #430404;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 10px;
+			font-size: 1rem;
+			text-align: justify;
+		}
+
+        #topDiv {
+            height: 5rem;
+            background-color: #660000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+        }
+
+        #topRightDiv img {
+            float: left;
+            margin-top: 0.15rem;
+            margin-bottom: 0.15rem;
+            height: 3.5rem;
+            width: fit-content;
+            width: auto;
+        }
+
+        .menuBarLinks {
+            font-family: 'Roboto', sans-serif;
+            color: #e6dad9; 
+            margin-left: 1rem; 
+            text-decoration: none;
+            height: 3.6rem;
+            padding: 0;
+            font-size: 1rem;
+            display: inline-block;
+            transform: scale(1);
+            transition: transform 0.3s ease;
+            margin-top: 8%;
+        }
+
+        .menuBarLinks:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    </style>
+</head>
+<body bgcolor="#FDF5FB">
+    <header>
+        <div id="topDiv">
+            <div id="topRightDiv">
+                <img src="Resources/SocietyLogocroped.png">
+            </div>
+            <div id="topLeftDiv">
+                <a href="Home.html" class="menuBarLinks">Home</a>
+                <a href="News.html" class="menuBarLinks">News</a>
+                <a href="Members.html" class="menuBarLinks">Committee Details</a>
+                <a href="About.html" class="menuBarLinks">About Us</a>
+                <a href="contactUs.html" class="menuBarLinks">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="mySlidesfade">
+            <img src="Resources/p1.jpg">
+            <div class="content">
+                <h3 class="newstopic">
+					Career Talk on Actuarial Science ~ 2022
+				</h3>
+                <p class="newscontent">
+					Department of Mathematics and the Mathematics Students Society organized a Career Talk on Actuarial Science on 05th October from 09:00~10:00 at the Faculty of Science ~ Board Room. 
+				</p>
+				<p class="newscontent">
+					The resource person was Ms Saroja Gunatilleke (FIA, MSc, G Dip, BSc) ~ Actuarial & Risk Management Consultant and Trainer (https://www.linkedin.com/in/saroja-gunatilleke-fia-88a12b2a/).
+
+				</p>	 
+				<p class="newscontent">
+					This informative session was successfully concluded with enthusiastic participation from the undergraduates.</p>
+
+				</p>
+            </div>
+        </div>
+
+        <div class="mySlidesfade">
+            <img src="Resources/p2.jpg">
+            <div class="content">
+                <h3 class="newstopic">
+					Bodhi Pooja Pinkama
+				</h3>
+                <p class="newscontent">
+					A Boodhi Pooja pinkama organized by the Mathematics Students’ Society, Faculty of Science, University of Kelaniya was held on 26th of June 2019 near boo tree at the premises of the Faculty of Science.
+
+				</p>
+				<p class="newscontent">
+					The event was held to commemorate the 60th anniversary of University of Kelaniya, in remembrance of all those who passed away due to Easter attack and wishing speedy recovery to those who affected and of receiving the blessing of the triple gem for the staff members and students of the Faculty of Science.  
+
+				</p>
+
+				<p class="newscontent">
+					The pinkama was led by the Head of the Department of Sinhala, University of Kelaniya most venerable Dr. Malwane Chandaratana thero and Rev. Padumakiththi thero.
+
+				</p>
+
+				<p class="newscontent">
+					The Dean of the Faculty of Science, the Head of the Department of Mathematics, academic and non-academic staff members and students of the Faculty were participated. A beli-mal dansala with jaggery followed the pooja.
+				</p>
+
+            </div>
+        </div>
+
+        <div class="mySlidesfade">
+            <img src="Resources/p3.jpg">
+            <div class="content">
+                <h3 class="newstopic">CGU Program "Career path, Career Development and How to Face an Interview"
+				</h3>
+                <p class="newscontent">
+					The Department of Mathematics organized a workshop  with the support of Career Guidance Unit (CGU) on “ Career Paths, Career Developments and How to Face an Interview” on 13th June 2019 at room B212, Faculty of Science - University of Kelaniya, for the 2nd year Physical Science students.  The Director of the CGU, Mr Jayantha Munasinghe, and other senior lectures of the Department of Mathematics and a total of 212 students participated in this workshop. Mr Nirmal Priyantha Jayakody - HR Consultant, Former Chief Manager of State Mortgage and Investment Bank was invited as the resource person in this workshop and he conducted an interactive storytelling workshop exploring what are the available career paths, what is career development, what factors influences about career development and tips for successful career development.
+				</p>
+				
+            </div>
+        </div>
+
+		<div class="mySlidesfade">
+            <img src="Resources/p4.jpg">
+            <div class="content">
+                <h3 class="newstopic">
+					Soft skills development program: Impact the Outcome
+Outbound Training Program-2019
+
+				</h3>
+                <p class="newscontent">
+					The Department of Mathematics in collaboration with the Career Guidance Unit (CGU) organized an Outbound Training Program “Leadership and Team Building” on 30th October 2019 (7:30 am to 8:30 pm) at the Commando Regiment Camp, Ganemulla. This program comprised of various practical activities including shooting and base jumping sessions and catered to the improvement and development of personality, self-confidence, self-discipline, leadership, and team working skills of the 2nd and 4th year Mathematics major students. 91 students have participated for this program and it was an amazing event that students have never experienced before. The student feedback confirmed that this workshop was really satisfactory and effective and also was really helpful for their career development.
+
+				</p>
+				<p class="newscontent">
+					All the participants were provided with a valuable certificate. 
+
+
+				</p>
+				<p class="newscontent">
+					Dr. KKKR Perera (the Head of the Department of Mathematics), Senior lecturer J Munasi
+				</p>
+				
+            </div>
+        </div>
+		<div class="mySlidesfade">
+            <img src="Resources/p5.jpg">
+            <div class="content">
+                <h3 class="newstopic">
+					Mathematics in Nature 2015
+
+				</h3>
+                <p class="newscontent">
+					‘Mathematics in Nature’ Photographic competition and exhibition focused on Mathematics and nature was organized by the Mathematics Students’ Society was held on the 20th of May, 2015 at the Science Faculty lobby. The occasion was graced by Prof. Kapila Senevirathna, the Dean of the Faculty of Science.
+				</p>
+				<p class="newscontent">
+					Mathematics in Nature’ Photographic competition and exhibition focused on Mathematics and nature was organized by the Mathematics Students’ Society was held on the 20th of May, 2015 at the Science Faculty lobby. The occasion was graced by Prof. Kapila Senevirathna, the Dean of the Faculty of Science.
+
+				</p>
+				<p class="newscontent">
+
+					The objective of the event was to provide an opportunity to the student community to explore the connection between the nature and Mathematics and develop their soft skills. Ms. Ahinsa Dewthilini Silva from Faculty of Science (ENCM) awarded the first place for the photograph titled ‘Mathematics behind a snail shell’. Ms. Nishadi Kanchana of Faculty of Humanities awarded the second place for the photograph titled ‘Green Curve’ and Ms. Ishara Chamindu Dulanjana of Faculty of Humanities awarded the third place for the photograph titled Natural Geometry Shapes’. Jury panel was comprised by an expert panel from the Drama & Theatre and Image Arts Unit of the University of Kelaniya
+				</p>
+				
+            </div>
+        </div>
+
+        <div class="do" style="text-align:left">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlidesfade");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "flex";  
+            setTimeout(showSlides, 3000); 
+        }
+    </script>
+</body>
+</html>

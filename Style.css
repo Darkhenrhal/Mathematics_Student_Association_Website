@@ -1,0 +1,114 @@
+body {
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+   /* background: url('Resources/2111.w039.n003.5B.p1.5.jpg') center center/cover no-repeat;*/
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the last value (0.9) for opacity */
+}
+
+
+
+#topDiv{
+    display:absolute;
+	position:top;
+    height: 3.6rem;
+    background-color: #660000;
+	width:100%;
+}
+
+#topRightDiv img{
+    float: left;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    height: 3.3rem;
+    width: fit-content;
+}
+
+#topDiv {
+    height: 3.6rem;
+    background-color: #660000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; /* Optional: Add padding to the topDiv for spacing */
+}
+
+#topRightDiv img {
+    height: 3.3rem;
+    width: auto;
+}
+
+#topLeftDiv {
+    text-align: right;
+    height: 3.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: fit-content;
+	margin-right:4%;
+}
+
+/*.menuBarLinks {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFE8E6; 
+    margin-left: 1rem; 
+    text-decoration: none;
+    height:3.6rem ;
+    padding:0;
+    transition: color 0.3s ease,font-size 0.8s ease;;
+}
+
+.menuBarLinks:hover {
+    color: white; 
+	font-size:130%;
+}*/
+
+.menuBarLinks {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFE8E6; 
+    margin-left: 1rem; 
+    text-decoration: none;
+    height: 3.6rem;
+    padding: 0;
+    font-size: 1rem;
+    display: inline-block; /* Ensures inline items are treated as block-level elements */
+    transform: scale(1); /* Initial scale factor */
+    /* transform-origin: bottom left; Set transform origin to prevent upward movement */
+    transition: transform 0.3s ease; /* Transition only the transform property */
+	margin-top:8%;
+}
+
+.menuBarLinks:hover {
+    transform: scale(1.1); /* Scale the element on hover */
+}
+
+
+
+#BodyDetailsDiv{
+    display: flex;
+    float: left;
+    width:100% ;
+	text-align:center;
+    height: 60%;
+}
+#Homeh3{
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left; /* Align the text to the left */
+    color: #532525; /* Set the text color to #660000 */
+    margin-left: 4rem;
+    margin: 11rem auto; /* Center the element horizontally */
+}
+
+#Homep1{
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+
+#HomeBodyImage{
+    display: flex;
+    float: left;
+    width:20rem ;
+}

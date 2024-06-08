@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="Style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+		<div id="topDiv">
+            <div id="topRightDiv">
+                <img src="Resources/SocietyLogocroped.png">
+            </div>
+            <div id="topLeftDiv">
+                <a href="Home.html" class="menuBarLinks">Home</a>
+                <a href="News.html" class="menuBarLinks">News</a>
+                <a href="Members.html" class="menuBarLinks">Committee Details</a>
+                <a href="About.html" class="menuBarLinks">About Us</a>
+                <a href="contactUs.html" class="menuBarLinks">Contact Us</a>
+
+            </div>
+        </div>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+			align-items:center;
+        }
+
+        .container1 {
+            float: left;
+            width: 400px;
+            margin: 0 auto;
+            margin-left: 0%;
+            padding: 50px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        button[type="submit"] {
+            background-color: #FFE8E6;
+            color: #black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: brown;
+			color: #FFE8E6;
+        }
+        #container2{
+            background-color: #b69d9d;
+            float: left;
+            display: flex;
+            height: 623px;
+            width:716.5px;
+
+        }
+        #container3{
+            text-align: center;
+            padding: 55;
+        }
+		.social-icons {
+            font-size: 24px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+		
+		#contentdiv{
+			align-items:center;
+		}
+    </style>
+</head>
+<body >
+	<div id="contentdiv">
+			<div class="container1" >
+        <h1>Contact Us</h1>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="Message" required></textarea>
+            </div>
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+    <div id="container2">
+        <div id="container3">
+            <h1>Contact Informations</h1>
+            <p><h3>Address</h3>
+                <hr>
+                Department of Mathematics,
+                University of Kelaniya,
+                Dalugama, Kelaniya, 
+                Sri Lanka, 11600.
+                <br><br>
+                <h3>Email</h3><hr>
+                <a href="mailto:maths@kln.ac.lk  ">maths@kln.ac.lk  </a>
+                <br><br>
+                <h3>Telephone and Fax</h3>
+                <hr>
+                Tel:  +94 (0) 112 903 301/302 <br><br>
+                Fax: +94 (0) 112 903 319
+            </p>
+        </div>
+        
+    </div>
+	
+	</div>
+    
+	<footer> 
+    <div id="topDiv" >
+        <div class="social-icons">
+            <a href="https://www.facebook.com/uokmathsociety" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/@MathsSociet" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+    </div>
+</footer>
+</body>
